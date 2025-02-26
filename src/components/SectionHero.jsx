@@ -1,7 +1,7 @@
 
 import Header from './Header';
 import Hero from './Hero';
-import './SectionHero.css';
+import './componentsStyle/SectionHero.css';
 import TopBanner from './TopBanner';
 
 export default function  SectionHero() {

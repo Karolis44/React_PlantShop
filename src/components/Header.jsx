@@ -1,5 +1,5 @@
 
-import './Header.css';
+import './componentsStyle/Header.css';
 import Logo from '../img/Logo.svg'
 import Search from '../img/Search.svg'
 import cart from '../img/cart.svg'

@@ -1,6 +1,6 @@
 
-import { useState, useEffect, use } from 'react'
-import './CategoriesList.css'
+import { useState, useEffect } from 'react'
+import './componentsStyle/CategoriesList.css'
 import Category from './Category';
 
 export default function CategoriesList() {
@@ -33,6 +33,7 @@ export default function CategoriesList() {
         fetchCategories();
       },[]);
 
+   
       
 
     return (
