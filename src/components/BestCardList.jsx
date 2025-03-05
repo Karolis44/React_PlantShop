@@ -1,6 +1,6 @@
 
 import BestCard from "./BestCard";
-import './componentsStyle/BestCardList.css'
+import './componentsStyle/BestCardList.css';
 import useFetch from "../hooks/useFetch";
 
 
