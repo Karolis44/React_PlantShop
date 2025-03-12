@@ -4,12 +4,20 @@ export default function useFetch({ url, folder, apiImage }) {
 
 
     const [result, setResult] = useState([]);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null);
+
 
     useEffect(() => {
 
         const fetchData = async () => {
+            setLoading(true);
+            setError(null);
             try {
                 const response = await fetch(url)
+                if(!response.ok) {
+                    throw new Error ('failed to get data from API')
+                }
                 const data = await response.json();
                 console.log(data);
 
@@ -32,15 +40,21 @@ export default function useFetch({ url, folder, apiImage }) {
                         imageSrc: imagePath.default,
                     }
                 }));
+                
+                await new Promise(resolve =>setTimeout(resolve, 3000))
 
                 setResult(dataWithImages);
 
             } catch (error) {
+
+                setError(error.message);
                 console.error('Klaida gaunant duomenis', error);
+            } finally {
+                setLoading(false)
             }
         }
         fetchData();
     }, [apiImage, folder, url]);
 
-    return result;
+    return {result, loading, error};
 }

@@ -1,4 +1,6 @@
 
+import Button from './Button'
+import './componentsStyle/PlantCard.css'
 
 
 export default function PlantCard({ plantId, title, price, imageSrc, discount, showDiscount }) {
@@ -23,7 +25,7 @@ export default function PlantCard({ plantId, title, price, imageSrc, discount, s
                 {
                     showDiscount && discount > 0 ? (
                         <>
-                        <span></span>
+                        <span>{price}</span>
                         <span></span>
                         </>
                     ):(
@@ -34,6 +36,8 @@ export default function PlantCard({ plantId, title, price, imageSrc, discount, s
                 }
 
             </div>
+              
+            <Button className='green-btn'> Buy </Button>
 
         </div>
         
