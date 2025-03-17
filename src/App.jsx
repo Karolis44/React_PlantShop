@@ -2,6 +2,7 @@
 import './app.css';
 import SectionBest from './components/SectionBest';
 import SectionCategories from './components/SectionCategories';
+import SectionDeals from './components/SectionDeals';
 import SectionHero from './components/SectionHero';
 import SectionHot from './components/SectionHot';
 import Title from './components/Title';
@@ -14,6 +15,7 @@ export default function  App() {
         <SectionCategories />
         <SectionBest/>
         <SectionHot />
+        <SectionDeals />
 
       </div>      
     </div>

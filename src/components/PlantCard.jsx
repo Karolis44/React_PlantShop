@@ -5,6 +5,8 @@ import './componentsStyle/PlantCard.css'
 
 export default function PlantCard({ plantId, title, price, imageSrc, discount, showDiscount }) {
 
+    const discountedPrice = discount ? (price*(1-discount/100)).toFixed(2) : price;
+
     return (
 
         <div className="plant-card">
@@ -25,8 +27,8 @@ export default function PlantCard({ plantId, title, price, imageSrc, discount, s
                 {
                     showDiscount && discount > 0 ? (
                         <>
-                        <span>{price}</span>
-                        <span></span>
+                        <span className='plant-price'>${discountedPrice}</span>
+                        <span className='red-price'>${price}</span>
                         </>
                     ):(
                         <div className="plant-price">
