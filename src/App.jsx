@@ -5,6 +5,7 @@ import SectionCategories from './components/SectionCategories';
 import SectionDeals from './components/SectionDeals';
 import SectionHero from './components/SectionHero';
 import SectionHot from './components/SectionHot';
+import SectionTestimonials from './components/SectionTestimonials';
 import Title from './components/Title';
 
 export default function  App() {
@@ -16,6 +17,7 @@ export default function  App() {
         <SectionBest/>
         <SectionHot />
         <SectionDeals />
+        <SectionTestimonials />
 
       </div>      
     </div>
