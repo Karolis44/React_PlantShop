@@ -13,7 +13,7 @@
     min-height: inherit;
 }
 
-
+/* .header-links {} */
 
 .header-links a {
     color: var(--black);
@@ -21,12 +21,19 @@
     font-size: 17px;
     padding: 10px;
     margin: 0 32px;
+    transition: all 0.2s ease-in-out;
+
 }
 
 .header-right {
     display: flex;
     align-items: center;
-    
+
+}
+
+.header-right a {
+    color: var(--textgrey);
+
 }
 
 .header-search {

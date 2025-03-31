@@ -1,8 +1,7 @@
-.categories-list {
+.plants-card-list {
     display: flex;
     flex-wrap: wrap;
+    gap: 24px;
+    padding: 50px 0 100px 0;
     justify-content: space-around;
-    gap: 10px;
-    padding: 50px 0;
-
 }

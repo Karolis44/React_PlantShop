@@ -1,37 +1,31 @@
-
 import './componentsStyle/Header.css';
-import Logo from '../img/Logo.svg'
-import Search from '../img/Search.svg'
-import cart from '../img/cart.svg'
+import Logo from '../img/Logo.svg';
+import cart from '../img/cart.svg';
+import Search from '../img/Search.svg';
+import { Link, NavLink } from 'react-router-dom';
 
 export default function Header() {
     return (
-        <div className='header-bg'>
+        <section className='header-bg'>
             <div className='wrapper header'>
-                <a href='#'><img src={Logo} alt='Logo' /></a>
+                <Link to='/' ><img src={Logo} alt="logo" /></Link>
                 <nav className='header-links'>
-                    <a href='#'>Home</a>
-                    <a href='#'>Products</a>
-                    <a href='#'>About us</a>
-                    <a href='#'>Contact us</a>
+                    <NavLink to='/' end>Home</NavLink>
+                    <NavLink to='/products' end>Products</NavLink>
+                    <NavLink to='/about' end>About us</NavLink>
+                    <NavLink to='/contact' end>Contact us</NavLink>
                 </nav>
                 <div className='header-right'>
-
-
                     <div className='header-search'>
                         Search
-                        <img src={Search} alt='search-icon' />
-                    </div>
+                        <img src={Search} alt="search icon" />
 
-                    <div>
-                        <a href='#'><img src={cart} alt='cart-icon' /></a>
+
                     </div>
+                    <a href="#"><img src={cart} alt="cart icon" /> 3</a>
                 </div>
             </div>
 
-
-        </div>
+        </section>
     );
 }
-
-

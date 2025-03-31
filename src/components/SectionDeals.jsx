@@ -1,17 +1,14 @@
 
+import PlantsCardList from './PlantsCardList';
 import Title from './Title';
-import '../components/componentsStyle/SectionDeals.css';
-import DealsCardList from './DealsCardList';
+import './componentsStyle/SectionDeals.css'
 
 export default function SectionDeals() {
-
-    return(
-
+    return (
         <section className="wrapper section-deals">
-              
-              <Title text1="Ferntastic" text2="Deals" showLink={false} />
-              <DealsCardList />
+            <Title text1='Ferntastic' text2='Deals' showLink={false} />
+            <PlantsCardList filterType='deals' limit={4} />
 
         </section>
-    );
+    )
 }

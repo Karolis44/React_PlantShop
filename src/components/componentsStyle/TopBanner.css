@@ -5,11 +5,11 @@
     color: var(--white);
     z-index: 10;
     position: relative;
+
 }
 
 .banner-line {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: right;
     font-weight: 600;
@@ -26,8 +26,7 @@
 
 .banner-support {
     margin-left: 40px;
-    color: var(--white);
-
+    color: var(--white)
 }
 
 .banner-currency {

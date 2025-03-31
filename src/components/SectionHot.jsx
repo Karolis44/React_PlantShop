@@ -1,27 +1,15 @@
-
-import  './componentsStyle/SectionHot.css'
-import HotCardList from './HotCardList.jsx'
-import Title from './Title.jsx'
+import './componentsStyle/SectionHot.css';
+import PlantsCardList from './PlantsCardList';
+import Title from './Title';
 
 export default function SectionHot() {
-
     return (
-
-
-        <section className='light-bg'>
-  
-            <div className='wrapper'>
-
-                <Title  text1='Hottest' text2='Plants' showLink={true} />
-                <HotCardList />
-
+        <section className="section-hot light-bg">
+            <div className="wrapper">
+                <Title text1='Hottest' text2='plants' showLink={true} />
+                <PlantsCardList filterType='hot' limit={8} />
             </div>
 
-
-       </section>
-
-    )
-
-      
-    
+        </section>
+    );
 }
