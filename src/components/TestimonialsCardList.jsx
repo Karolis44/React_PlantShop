@@ -1,6 +1,6 @@
 import './componentsStyle/TestimonialsCardList.css'
 import useFetch from '../hooks/useFetch';
-import TestimonialCard from './TestimonialCard';
+import TestimonialCard from './TestimonialsCard';
 import DataHandler from '../utils/DataHandler';
 
 export default function TestimonialsCardList() {

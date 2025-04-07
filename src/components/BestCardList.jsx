@@ -6,7 +6,7 @@ import DataHandler from '../utils/DataHandler';
 
 export default function BestCardList() {
 
-    const { result: bestCards, loading, error } = useFetch({ url: 'https://gist.githubusercontent.com/Jonas-Petrikas/096579d09f9ea11ba867f2a16bdc8f90/raw/b3beb182d686873aa638c09fc5169823bb62edc6/BestTags.json', folder: 'BestSelling', apiImage: 'fileName' })
+    const { result: bestCards, loading, error } = useFetch({ url: 'https://gist.githubusercontent.com/Karolis44/638d5259e9b5c457aacadb987dbb4ae3/raw/eb4fafa377a9dbdb95fb2be5c0143059a001e103/bestc.json', folder: 'BestSelling', apiImage: 'fileName' })
 
 
 

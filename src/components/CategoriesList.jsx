@@ -8,7 +8,7 @@ export default function CategoriesList() {
 
     const { result: categories, loading, error } = useFetch(
         {
-            url: 'https://gist.githubusercontent.com/Jonas-Petrikas/2dfbd8cb69b9ad8931a4db2dc7f9118c/raw/a8cceb245daf7d6f494eee5b06393fbe03a3a06c/category.json',
+            url: 'https://gist.githubusercontent.com/Karolis44/71d58ad89e5f8a9c30e499f3516524ec/raw/67b9135b1c087c95100bd8ccf51d356a2858b74b/category.json',
             folder: 'Category',
             apiImage: 'fileName'
         }

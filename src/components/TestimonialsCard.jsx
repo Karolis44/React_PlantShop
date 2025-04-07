@@ -1,5 +1,5 @@
 
-import './componentsStyle/TestimonialCard.css';
+import './componentsStyle/TestimonialsCard.css';
 
 
 export default function TestimonialCard({ id, name, imageSrc, text, rating }) {
