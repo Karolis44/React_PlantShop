@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <ProductsProvider>
-    <BrowserRouter basename="/React_PlantShop">
+    <BrowserRouter basename='/React_PlantShop'>
       <App />
     </BrowserRouter>
   </ProductsProvider>
