@@ -6,7 +6,7 @@ const ProductsContext = createContext();
 export function ProductsProvider({ children }) {
     const { result: products, loading, error } = useFetch(
         {
-            url: 'https://gist.githubusercontent.com/Jonas-Petrikas/a9c1276f028ff25266ee105ce913a553/raw/e4b72ada1e44abbfe786b94204104464e86da7ad/plants.json',
+            url: 'https://gist.githubusercontent.com/Karolis44/2f3d666911bcb024b0b203c66b653501/raw/7f94d8f3b152d5b1ba276dbef392748f2ec38a86/plants.json',
             folder: 'Plants',
             apiImage: 'image'
         }
