@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkplantshop=self.webpackChunkplantshop||[]).push([[117],{4117:(p,s,a)=>{p.exports=a.p+"static/media/zz_plant.c04b22403d65cfb12aeb.jpg"}}]);

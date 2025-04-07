@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkplantshop=self.webpackChunkplantshop||[]).push([[425],{425:(c,s,t)=>{c.exports=t.p+"static/media/twitter.c4bc50938c7a15cf84cc.svg"}}]);

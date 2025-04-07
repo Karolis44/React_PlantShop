@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkplantshop=self.webpackChunkplantshop||[]).push([[641],{8641:i=>{i.exports=JSON.parse('[{"id":1,"title":"Indoor Plants","fileName":"indoor.svg"},{"id":2,"title":"Air Purifying Plants","fileName":"airPurifying.svg"},{"id":3,"title":"Flowering Plants","fileName":"flowering.svg"}]')}}]);

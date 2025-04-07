@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkplantshop=self.webpackChunkplantshop||[]).push([[14],{9014:(e,p,s)=>{e.exports=s.p+"static/media/peace_lily.8a745cceb50933e57f2c.jpg"}}]);

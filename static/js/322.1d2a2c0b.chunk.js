@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkplantshop=self.webpackChunkplantshop||[]).push([[322],{5322:(e,p,s)=>{e.exports=s.p+"static/media/variegated_succulent.65932029314d43cc866b.jpg"}}]);
